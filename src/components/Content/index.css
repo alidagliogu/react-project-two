@@ -1,0 +1,30 @@
+.content-img div{
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    position:relative;
+    background-image: url(../../images/IMG-20221003-WA0025.jpg);
+    border-radius: 50px;
+}
+.content-img{
+    position: relative;
+    float: left;
+    width: 30%;
+    height: 50vh;
+}
+.content-text{
+    position: relative;
+    float: right;
+    width: 65%;
+}
+@media screen and (max-width: 768px){
+    .content-img{
+        width: 100%;
+    }
+    .content-text{
+        width: 100%;
+        margin-top: 10%;
+    }
+}

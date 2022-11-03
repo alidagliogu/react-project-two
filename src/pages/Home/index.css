@@ -1,0 +1,8 @@
+.card-container-center{
+    display: flex;
+}
+@media screen and (max-width: 768px){
+    .card-container-center{
+        display:block;
+    }
+}
